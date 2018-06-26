@@ -1,6 +1,6 @@
 import React from "react";
 import { css } from "glamor";
-import { colors, breakpoints, spacing } from "theme";
+import { colors, breakpoints, spacing, style } from "theme";
 
 let wrapper = css({
   display: "flex",
@@ -10,7 +10,7 @@ let wrapper = css({
   color: colors.white,
   [`& a`]: {
     color: colors.white,
-    fontWeight: "bold"
+    fontFamily: style.bold
   }
 });
 

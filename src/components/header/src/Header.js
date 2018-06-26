@@ -1,6 +1,6 @@
 import React from "react";
 import { css } from "glamor";
-import { size, colors, breakpoints, spacing } from "theme";
+import { size, colors, breakpoints, spacing, style } from "theme";
 import Icon from "components/icons/src";
 import logo from "assets/svg/logo.svg";
 
@@ -44,6 +44,12 @@ let contact = css({
   }
 });
 
+let title = css({
+  fontFamily: style.condensed,
+  textTransform: "uppercase",
+  letterSpacing: "1.9px"
+});
+
 const Header = ({ ...props }) => {
   return (
     <header {...wrapper} className={props.css}>
@@ -56,8 +62,8 @@ const Header = ({ ...props }) => {
           <img src={logo} className="App-logo" alt="logo" />
         </div>
         <div {...contact}>
-          <div>Need Help?</div>
-          <Icon icon="phone" width="25px" />
+          <div {...title}>Need Help?</div>
+          <Icon icon="phone" width="24px" />
           <a href="tel:+44 (0) 20 3750 1250">+44 (0) 20 3750 1250</a>
         </div>
       </div>

@@ -1,4 +1,26 @@
+@font-face {
+  font-family: 'Polaris-Book';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Polaris-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Polaris-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Polaris-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PolarisCondensed-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/PolarisCondensed-Bold.woff') format('woff');
+}
+
 body {
+  font-family: "PolarisCondensed-Bold", sans-serif;
   margin: 0;
   background-color: #f5f5f5;
   -webkit-font-smoothing: antialiased;

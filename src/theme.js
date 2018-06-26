@@ -26,8 +26,9 @@ const size = {
 };
 
 const style = {
-  condensed: "Roboto Condensed, sans-serif",
-  regular: "Roboto, sans-serif"
+  condensed: "PolarisCondensed-Bold, sans-serif",
+  regular: "Polaris-Book, sans-serif",
+  bold: "Polaris-Bold, sans-serif"
 };
 
 const breakpoints = {
